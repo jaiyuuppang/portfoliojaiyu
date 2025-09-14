@@ -40,11 +40,11 @@ export const BirthdayReveal = ({ isVisible }: BirthdayRevealProps) => {
 
             {/* Simple message */}
             <div className="max-w-xl mx-auto mb-16">
-              <p className="font-caveat text-xl md:text-2xl text-muted-foreground leading-relaxed mb-8">
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
                 This isn't actually my portfolio... it's your special birthday surprise!
               </p>
               
-              <p className="font-caveat text-lg md:text-xl text-muted-foreground">
+              <p className="text-base md:text-lg text-muted-foreground">
                 I hope this little technical trick made you smile. You deserve all the happiness in the world! ✨
               </p>
             </div>
