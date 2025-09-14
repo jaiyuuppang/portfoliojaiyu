@@ -39,15 +39,15 @@ const Index = () => {
           <p className="text-muted-foreground">
             {showBirthdayReveal ? (
               <>
-                Hope you enjoyed your special surprise, Pau! 🎂
+                Hope you loved your special surprise, Pau! 🎂✨
                 <br />
-                <span className="text-sm">Made with ❤️ and a bit of technical magic</span>
+                <span className="text-sm">Made with ❤️ by Jai</span>
               </>
             ) : (
               <>
-                Built with React, TypeScript, and Tailwind CSS
+                © 2024 Jai - Web Developer & Tech Support
                 <br />
-                <span className="text-sm">Full-stack developer & tech support specialist</span>
+                <span className="text-sm">Always ready to help solve your tech problems!</span>
               </>
             )}
           </p>

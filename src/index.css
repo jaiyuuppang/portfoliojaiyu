@@ -26,10 +26,10 @@
     --secondary: 240 5% 96%;
     --secondary-foreground: 240 5% 8%;
     
-    /* Refined Accent */
-    --accent: 47 100% 50%;
-    --accent-foreground: 240 5% 8%;
-    --accent-hover: 47 100% 45%;
+    /* Refined Accent - cute pink for birthday surprise */
+    --accent: 330 81% 60%;
+    --accent-foreground: 0 0% 100%;
+    --accent-hover: 330 81% 55%;
     
     /* Muted Tones */
     --muted: 240 5% 96%;
@@ -80,9 +80,9 @@
     --secondary: 240 5% 15%;
     --secondary-foreground: 240 5% 92%;
     
-    --accent: 47 100% 55%;
-    --accent-foreground: 240 5% 8%;
-    --accent-hover: 47 100% 50%;
+    --accent: 330 81% 65%;
+    --accent-foreground: 0 0% 100%;
+    --accent-hover: 330 81% 60%;
     
     --muted: 240 5% 15%;
     --muted-foreground: 240 4% 60%;

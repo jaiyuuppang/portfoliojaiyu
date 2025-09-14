@@ -24,14 +24,12 @@ export const HeroSection = ({ onRevealClick }: HeroSectionProps) => {
             <Code2 className="w-8 h-8 text-foreground" />
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground tracking-tight">
-            Full-Stack Solutions
-            <br />
-            <span className="text-4xl md:text-6xl text-muted-foreground">& Tech Support</span>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground tracking-tight">
+            Hi, I'm Jai 👋
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Specialized in full-stack development, tech support, and hardware/software troubleshooting.
+            Web developer & tech support specialist who loves solving problems and building things.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
@@ -44,17 +42,17 @@ export const HeroSection = ({ onRevealClick }: HeroSectionProps) => {
               onClick={onRevealClick}
               className={`transition-all duration-300 ${
                 showBirthdayHint 
-                  ? 'border-accent text-accent hover:bg-accent hover:text-accent-foreground' 
+                  ? 'border-accent text-accent hover:bg-accent hover:text-accent-foreground animate-pulse' 
                   : ''
               }`}
             >
-              {showBirthdayHint ? '✨ Something Special' : 'Get In Touch'}
+              {showBirthdayHint ? '🎉 Click Me!' : 'Get In Touch'}
             </Button>
           </div>
           
           {showBirthdayHint && (
             <p className="text-sm text-accent animate-fade-in-up">
-              There's a surprise waiting for someone special...
+              I have something special to share... 🎁
             </p>
           )}
         </div>

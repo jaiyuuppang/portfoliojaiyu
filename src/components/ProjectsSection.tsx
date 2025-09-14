@@ -5,27 +5,27 @@ import { ExternalLink, Github, Database, Server, MessageSquare } from 'lucide-re
 const projects = [
   {
     id: 1,
-    title: "Support Ticket System",
-    description: "Comprehensive ticket management with real-time updates and automated workflows.",
-    tech: ["Node.js", "PostgreSQL", "React"],
+    title: "Client Support Portal",
+    description: "Help desk system for managing technical support requests and solutions.",
+    tech: ["HTML", "CSS", "JavaScript"],
     icon: MessageSquare,
-    hint: "P.A.U. System"
+    hint: "🎂 Special"
   },
   {
     id: 2,
-    title: "Database Monitor",
-    description: "Performance monitoring dashboard with custom alerting and optimization.",
-    tech: ["Python", "MySQL", "Redis"],
+    title: "Hardware Inventory",
+    description: "System for tracking computer hardware and maintenance schedules.",
+    tech: ["React", "Node.js"],
     icon: Database,
-    hint: "Birthday Analytics"
+    hint: "🎉 Surprise"
   },
   {
     id: 3,
-    title: "API Gateway",
-    description: "Scalable gateway with authentication, rate limiting, and request routing.",
-    tech: ["Express.js", "MongoDB", "JWT"],
+    title: "Tech Blog",
+    description: "Personal blog sharing troubleshooting tips and tech solutions.",
+    tech: ["WordPress", "PHP"],
     icon: Server,
-    hint: "Special Day API"
+    hint: "🎁 For You"
   }
 ];
 
@@ -40,12 +40,12 @@ export const ProjectsSection = ({ onProjectClick }: ProjectsSectionProps) => {
     <section className="py-24 px-6 bg-secondary/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4 text-foreground">Recent Work</h2>
+          <h2 className="text-3xl font-bold mb-4 text-foreground">My Projects</h2>
           <p className="text-muted-foreground mb-2">
-            Latest full-stack projects with modern frontend and backend solutions
+            Some of the things I've been working on
           </p>
           <p className="text-sm text-accent">
-            Click any project for a special surprise
+            Click any project to see something special ✨
           </p>
         </div>
 
