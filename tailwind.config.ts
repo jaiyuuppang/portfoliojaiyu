@@ -65,6 +65,13 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        'playfair': ['Playfair Display', 'serif'],
+        'dancing': ['Dancing Script', 'cursive'],
+        'great-vibes': ['Great Vibes', 'cursive'],
+        'caveat': ['Caveat', 'cursive'],
+        'pacifico': ['Pacifico', 'cursive'],
+      },
       keyframes: {
         "accordion-down": {
           from: {
