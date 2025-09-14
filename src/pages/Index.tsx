@@ -39,13 +39,13 @@ const Index = () => {
           <p className="text-muted-foreground">
             {showBirthdayReveal ? (
               <>
-                Hope you loved your special surprise, Pau! 🎂✨
+                Hope you had a day to remember, Pau! 🎂✨
                 <br />
-                <span className="text-sm">Made with ❤️ by Jai</span>
+                <span className="text-sm"> Vibe Coded with ❤️ by Jai</span>
               </>
             ) : (
               <>
-                © 2024 Jai - Web Developer & Tech Support
+                © 2025 Jai - Web Developer & Tech Support
                 <br />
                 <span className="text-sm">Always ready to help solve your tech problems!</span>
               </>
