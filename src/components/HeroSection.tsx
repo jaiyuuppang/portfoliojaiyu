@@ -33,20 +33,22 @@ export const HeroSection = ({ onRevealClick }: HeroSectionProps) => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
-              View My Work
+            <Button 
+              size="lg" 
+              className={`transition-all duration-300 ${
+                showBirthdayHint 
+                  ? 'bg-accent hover:bg-accent-hover text-accent-foreground animate-pulse' 
+                  : 'bg-primary hover:bg-primary-hover text-primary-foreground'
+              }`}
+              onClick={onRevealClick}
+            >
+              {showBirthdayHint ? '🎉 View My Work' : 'View My Work'}
             </Button>
             <Button 
               variant="outline" 
               size="lg"
-              onClick={onRevealClick}
-              className={`transition-all duration-300 ${
-                showBirthdayHint 
-                  ? 'border-accent text-accent hover:bg-accent hover:text-accent-foreground animate-pulse' 
-                  : ''
-              }`}
             >
-              {showBirthdayHint ? '🎉 Click Me!' : 'Get In Touch'}
+              Get In Touch
             </Button>
           </div>
           
