@@ -2,7 +2,8 @@ export const SkillsSection = () => {
   const skills = [
     "React", "TypeScript", "Node.js", "Python", 
     "PostgreSQL", "MongoDB", "Express.js", "REST APIs",
-    "Tailwind CSS", "Docker", "AWS", "Database Design"
+    "Tailwind CSS", "Docker", "AWS", "Tech Support",
+    "Hardware Troubleshooting", "Software Diagnostics", "System Administration", "Network Configuration"
   ];
 
   return (
@@ -11,7 +12,7 @@ export const SkillsSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-foreground">Core Expertise</h2>
           <p className="text-muted-foreground">
-            Full-stack technologies I work with daily
+            Full-stack development and technical support expertise
           </p>
         </div>
 
