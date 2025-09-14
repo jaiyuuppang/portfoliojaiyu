@@ -25,13 +25,13 @@ export const HeroSection = ({ onRevealClick }: HeroSectionProps) => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground tracking-tight">
-            Technical Solutions
+            Full-Stack Solutions
             <br />
-            <span className="text-4xl md:text-6xl text-muted-foreground">& Backend Development</span>
+            <span className="text-4xl md:text-6xl text-muted-foreground">Frontend & Backend</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-            Specialized in technical support, backend systems, and creating robust solutions that work.
+            Specialized in full-stack development, creating seamless user experiences with robust backend systems.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">

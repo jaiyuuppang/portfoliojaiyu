@@ -42,7 +42,7 @@ export const ProjectsSection = ({ onProjectClick }: ProjectsSectionProps) => {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-foreground">Recent Work</h2>
           <p className="text-muted-foreground mb-2">
-            Latest projects in backend development and technical solutions
+            Latest full-stack projects with modern frontend and backend solutions
           </p>
           <p className="text-sm text-accent">
             Click any project for a special surprise

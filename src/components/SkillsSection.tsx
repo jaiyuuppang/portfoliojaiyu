@@ -1,8 +1,8 @@
 export const SkillsSection = () => {
   const skills = [
-    "Node.js", "Python", "PostgreSQL", "MongoDB", 
-    "Express.js", "REST APIs", "Docker", "AWS",
-    "Technical Support", "System Troubleshooting", "Database Design", "Performance Optimization"
+    "React", "TypeScript", "Node.js", "Python", 
+    "PostgreSQL", "MongoDB", "Express.js", "REST APIs",
+    "Tailwind CSS", "Docker", "AWS", "Database Design"
   ];
 
   return (
@@ -11,7 +11,7 @@ export const SkillsSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 text-foreground">Core Expertise</h2>
           <p className="text-muted-foreground">
-            Technologies and skills I work with daily
+            Full-stack technologies I work with daily
           </p>
         </div>
 

@@ -47,7 +47,7 @@ const Index = () => {
               <>
                 Built with React, TypeScript, and Tailwind CSS
                 <br />
-                <span className="text-sm">Focused on backend solutions & technical support</span>
+                <span className="text-sm">Full-stack developer focused on modern web solutions</span>
               </>
             )}
           </p>
