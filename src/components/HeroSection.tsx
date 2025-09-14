@@ -51,12 +51,6 @@ export const HeroSection = ({ onRevealClick }: HeroSectionProps) => {
               Get In Touch
             </Button>
           </div>
-          
-          {showBirthdayHint && (
-            <p className="text-sm text-accent animate-fade-in-up">
-              I have something special to share... 🎁
-            </p>
-          )}
         </div>
         
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-pulse">
