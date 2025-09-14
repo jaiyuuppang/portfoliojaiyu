@@ -34,12 +34,12 @@ const Index = () => {
       </div>
       
       {/* Footer */}
-      <footer className="py-12 px-6 bg-card/50 backdrop-blur-sm border-t">
+      <footer className="py-16 px-6 border-t">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-muted-foreground">
             {showBirthdayReveal ? (
               <>
-                🎉 Hope you enjoyed your special surprise, Pau! 🎂
+                Hope you enjoyed your special surprise, Pau! 🎂
                 <br />
                 <span className="text-sm">Made with ❤️ and a bit of technical magic</span>
               </>
