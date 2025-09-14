@@ -92,7 +92,7 @@ export const BirthdayReveal = ({ isVisible }: BirthdayRevealProps) => {
                   <div className="text-muted-foreground space-y-3 text-lg">
                     <p>Wishing you the happiest of birthdays! 🎉</p>
                     <p>Wow! Congrats on making it through another year. I really want to thank you for being there for me last year—it helped me get through some tough times. Please never doubt yourself, and I hope you achieve the things you want this time! </p>
-                    <p>Wishing you all the happiness errday~~</p>
+                    <p>Wishing you all the happiness errday! ML NAMAN MINSAN OH YAW MO NA BA Q BUHATIN? 😓</p>
                      <p className="text-sm italic text-muted-foreground">Sensya na scuffy website 🤣Kaninang umaga lang ako nag-aral ng React HAHAHA</p>
                   </div>
                    <div className="pt-6 border-t border-pink-200">
